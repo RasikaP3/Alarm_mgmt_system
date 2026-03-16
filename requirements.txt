@@ -1,0 +1,13 @@
+kafka-python
+langgraph
+pydantic
+python-dotenv
+pymongo
+langchain
+langchain-core
+langchain-huggingface
+huggingface_hub
+faiss-gpu
+faiss-cpu
+sentence-transformers
+secure-smtplib

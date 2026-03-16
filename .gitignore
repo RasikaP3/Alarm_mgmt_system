@@ -1,0 +1,20 @@
+# Environment variables
+.ENV
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Runtime output
+data/
+incidents.jsonl
+
+# Kafka binaries
+kafka_2.13-3.7.0/
+kafka_2.13-3.7.0.tgz
+kafka_2.13-3.7.0.tgz.1
+
+# OS / Editor
+*.py:Zone.Identifier
+*.swp
