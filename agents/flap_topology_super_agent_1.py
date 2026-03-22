@@ -1,358 +1,342 @@
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from collections import defaultdict
-from typing import TypedDict, Optional
-from pathlib import Path
+from typing import TypedDict
 from langgraph.graph import StateGraph
+from kafka import KafkaConsumer, KafkaProducer
 from pymongo import MongoClient
-from kafka import KafkaProducer
+from pathlib import Path
+import time
 
+# ---------------- PATHS ----------------
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# --------------------------------------------------
-# CONFIGURATION
-# --------------------------------------------------
-
-FLAP_WINDOW = timedelta(seconds=120)
-FLAP_THRESHOLD = 3
-
-MONGO_URI = "mongodb://localhost:27017"
-DB_NAME = "noc_alarm_system"
-
-KAFKA_BROKER = "localhost:9092"
-SUPPRESSED_TOPIC = "suppressed_alarms"
-
-# --------------------------------------------------
-# MONGODB CONNECTION
-# --------------------------------------------------
-
-client = MongoClient(MONGO_URI)
-db = client[DB_NAME]
-
-# --------------------------------------------------
-# KAFKA PRODUCER
-# --------------------------------------------------
-
-producer = KafkaProducer(bootstrap_servers=KAFKA_BROKER)
-
-# --------------------------------------------------
-# LOAD TOPOLOGY FROM DB
-# --------------------------------------------------
-
-def load_topology_from_db():
-    topology = {}
-    edges = db.topology.find()
-    for edge in edges:
-        source = edge["source"].lower()
-        dest = edge["destination"].lower()
-        if dest not in topology:
-            topology[dest] = []
-        topology[dest].append(source)
-    return topology
-
-TOPOLOGY = load_topology_from_db()
-
-# --------------------------------------------------
-# GLOBAL MEMORY
-# --------------------------------------------------
-
-flap_memory = defaultdict(list)
-active_root_devices = set()
+DECISION_FILE = BASE_DIR / "data/alarm_decisions.json"
+COMM_FILE = BASE_DIR / "data/communication_logs.json"
+MTTA_FILE = BASE_DIR / "data/mtta_results.json"
+MTTR_FILE = BASE_DIR / "data/mttr_results.json"
 
 communication_logs = []
 decisions = []
 mtta_records = []
 mttr_records = []
 
-# --------------------------------------------------
-# STATE
-# --------------------------------------------------
+# ---------------- CONFIG ----------------
+FLAP_WINDOW = timedelta(seconds=120)
+FLAP_THRESHOLD = 3
+RESOLVE_WINDOW = timedelta(seconds=180)
 
+KAFKA_BROKER = "localhost:9092"
+INPUT_TOPIC = "classifiedalarms"
+OUTPUT_TOPIC = "suppressedalarms"
+CREATE_INCIDENT ="createIncident"
+SUPRESS_TOPOLOGY = "suppressTopology"
+SUPRESS_FLAPPING = "suppressFlapping"
+MONGO_URI = "mongodb://localhost:27017"
+DB_NAME = "noc_alarm_system"
+
+# ---------------- DB ----------------
+client = MongoClient(MONGO_URI)
+db = client[DB_NAME]
+
+# ---------------- KAFKA ----------------
+consumer = KafkaConsumer(
+    INPUT_TOPIC,
+    bootstrap_servers=KAFKA_BROKER,
+    value_deserializer=lambda m: json.loads(m.decode("utf-8")),
+    auto_offset_reset="earliest",
+    group_id="flap-agent"
+)
+
+producer = KafkaProducer(
+    bootstrap_servers=KAFKA_BROKER,
+    value_serializer=lambda v: json.dumps(v, default=str).encode("utf-8")
+)
+
+# ---------------- MEMORY ----------------
+flap_memory = defaultdict(list)
+last_seen = {}
+
+# ---------------- STATE ----------------
 class AlarmState(TypedDict):
     alarm: dict
     is_flapping: bool
-    topology_suppressed: bool
-    root_device: Optional[str]
     decision: str
 
-# --------------------------------------------------
-# UTILITIES
-# --------------------------------------------------
+# ---------------- UTILS ----------------
+def now():
+    return datetime.now(timezone.utc)
 
-def load_jsonl(path):
-    data = []
-    with open(path, "r") as f:
-        for line in f:
-            if line.strip():
-                data.append(json.loads(line))
-    return data
+def get_ts(alarm):
+    ts = alarm.get("createdAt")
+    if ts:
+        dt = datetime.fromisoformat(ts)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    return now()
 
-def get_alarm_timestamp(alarm):
-    ts = alarm["timestamp"]
-    return datetime.fromisoformat(ts.replace("Z", "+00:00"))
+# # ---------------- GET PARENT DEVICE ----------------
+# def get_parent_device(device_name):
+#     record = db.topology.find_one({"destination": device_name})
+#     if record:
+#         return record["source"]
+#     return None
 
-def get_device_id(alarm):
-    device = alarm.get("device", {})
-    if isinstance(device, dict):
-        return device.get("id", "").lower()
-    if isinstance(device, str):
-        return device.lower()
-    return None
+# # ---------------- IS TOPOLOGY SUPPRESSED ----------------
+# def is_topology_suppressed(alarm):
+#     device = alarm.get("device_name")
+#     parent = get_parent_device(device)
+#     if not parent:
+#         return False
+#     # Strict parent match
+#     for key, last in last_seen.items():
+#         device_from_key = key.split("_")[0]
+#         if parent == device_from_key:
+#             if now() - last < RESOLVE_WINDOW:
+#                 return True
+#     return False
 
-def get_severity(alarm):
-    sev = alarm.get("severity")
-    if isinstance(sev, dict):
-        return sev.get("original")
-    return sev
+# ---------------- LIFECYCLE ----------------
+def update_lifecycle(alarm):
+    lifecycle = alarm.setdefault("lifecycle", {})
 
-# --------------------------------------------------
-# MERGE DATA
-# --------------------------------------------------
-
-def merge_alarm_data(monitoring_file, classified_file):
-    monitoring = load_jsonl(monitoring_file)
-    classified = load_jsonl(classified_file)
-    classified_map = {c["alarmId"]: c for c in classified}
-    merged = []
-    for m in monitoring:
-        alarm_id = m["alarmId"]
-        c = classified_map.get(alarm_id, {})
-        alarm = {**m, **c}
-        alarm["alarm_id"] = alarm_id
-        merged.append(alarm)
-    return merged
-
-# --------------------------------------------------
-# FLAPPING AGENT
-# --------------------------------------------------
-
-def flapping_agent(state: AlarmState):
-    alarm = state["alarm"]
-    device = get_device_id(alarm)
-    if not device:
-        state["is_flapping"] = False
-        return state
-    ts = get_alarm_timestamp(alarm)
-    history = flap_memory[device]
-    history = [t for t in history if ts - t < FLAP_WINDOW]
-    history.append(ts)
-    flap_memory[device] = history
-    state["is_flapping"] = len(history) >= FLAP_THRESHOLD
-    return state
-
-# --------------------------------------------------
-# TOPOLOGY AGENT (DB BASED)
-# --------------------------------------------------
-
-def topology_agent(state: AlarmState):
-    alarm = state["alarm"]
-    device = get_device_id(alarm)
-    severity = get_severity(alarm)
-    parents = TOPOLOGY.get(device, [])
-    suppressed = any(p in active_root_devices for p in parents)
-    state["topology_suppressed"] = suppressed
-    state["root_device"] = parents[0] if suppressed else None
-    if severity and severity.lower() == "critical":
-        if alarm["status"] in ["OPEN", "ACKNOWLEDGED"]:
-            active_root_devices.add(device)
-        if alarm["status"] in ["CLEARED", "RESOLVED"]:
-            active_root_devices.discard(device)
-    return state
-
-# --------------------------------------------------
-# SUPER AGENT
-# --------------------------------------------------
-
-def super_agent(state: AlarmState):
-    if state["topology_suppressed"]:
-        state["decision"] = "SUPPRESS_TOPOLOGY"
-    elif state["is_flapping"]:
-        state["decision"] = "SUPPRESS_FLAPPING"
+    # ✅ Use Kafka timestamp if available
+    kafka_ts = alarm.get("createdAt")
+    if kafka_ts:
+        # Ensure timezone-aware
+        created_dt = datetime.fromisoformat(kafka_ts)
+        if created_dt.tzinfo is None:
+            created_dt = created_dt.replace(tzinfo=timezone.utc)
+        created_iso = created_dt.isoformat()
     else:
-        state["decision"] = "CREATE_INCIDENT"
-    return state
+        created_iso = now().isoformat()
 
-# --------------------------------------------------
-# COMMUNICATION AGENT
-# --------------------------------------------------
+    # Set createdAt only if not already set
+    if "createdAt" not in lifecycle:
+        lifecycle["createdAt"] = created_iso
 
-def communication_agent(state: AlarmState):
-    alarm = state["alarm"]
-    device = get_device_id(alarm)
-    if state["decision"] == "SUPPRESS_TOPOLOGY":
-        communication_logs.append({
-            "type": "topology",
-            "device": device,
-            "root_device": state["root_device"],
-            "message": f"Root cause {state['root_device']} detected. Suppressing downstream alarms."
-        })
-    elif state["decision"] == "SUPPRESS_FLAPPING":
-        communication_logs.append({
-            "type": "flapping",
-            "device": device,
-            "message": "Repeated alarms detected. Flapping suppression applied."
-        })
-    return state
+    # ACK logic
+    if alarm["status"] == "ACKNOWLEDGED":
+        if "acknowledgedAt" not in lifecycle:
+            lifecycle["acknowledgedAt"] = now().isoformat()
 
-# --------------------------------------------------
-# METRICS
-# --------------------------------------------------
+    # RESOLVED / CLEARED logic
+    if alarm["status"] in ["RESOLVED", "CLEARED"]:
+        lifecycle.setdefault("resolvedAt", now().isoformat())
+        lifecycle.setdefault("acknowledgedAt", lifecycle["createdAt"])
 
-# def update_metrics(alarm):
-#     lifecycle = alarm.get("lifecycle", {})
-#     opened = lifecycle.get("createdAt")
-#     ack = lifecycle.get("acknowledgedAt")
-#     cleared = lifecycle.get("resolvedAt")
-#     alarm_id = alarm["alarmId"]
-#     if opened and ack:
-#         opened_dt = datetime.fromisoformat(opened)
-#         ack_dt = datetime.fromisoformat(ack)
-#         mtta = (ack_dt - opened_dt).total_seconds()
-#         mtta_records.append({
-#             "alarm_id": alarm_id,
-#             "mtta_seconds": mtta
-#         })
-#     if opened and cleared:
-#         opened_dt = datetime.fromisoformat(opened)
-#         clear_dt = datetime.fromisoformat(cleared)
-#         mttr = (clear_dt - opened_dt).total_seconds()
-#          # Attach directly to alarm for orchestrator
-#         alarm["mtta_seconds"] = mtta
-#         alarm["mttr_seconds"] = mttr
+    return alarm
+# def update_lifecycle(alarm):
+#     lifecycle = alarm.setdefault("lifecycle", {})
+#     current = now().isoformat()
+#     print("alarm status:", alarm)
+#     if "createdAt" not in lifecycle:
+#         lifecycle["createdAt"] = current
 
+#     if alarm["status"] == "ACKNOWLEDGED":
+#         if "acknowledgedAt" not in lifecycle:
+#             lifecycle["acknowledgedAt"] = current
+
+#     if alarm["status"] in ["RESOLVED", "CLEARED"]:
+#         lifecycle.setdefault("resolvedAt", current)
+#         lifecycle.setdefault("acknowledgedAt", lifecycle["createdAt"])
+
+#     return alarm
+
+# ---------------- METRICS ----------------
 def update_metrics(alarm):
-    lifecycle = alarm.get("lifecycle", {})
-    opened = lifecycle.get("createdAt")
-    ack = lifecycle.get("acknowledgedAt")
-    cleared = lifecycle.get("resolvedAt")
-    alarm_id = alarm["alarmId"]
+    lc = alarm.get("lifecycle", {})
+    print("Lifecycle:", lc)
+    opened = lc.get("createdAt")
+    ack = lc.get("acknowledgedAt")
+    resolved = lc.get("resolvedAt")
 
     if opened and ack:
-        opened_dt = datetime.fromisoformat(opened)
-        ack_dt = datetime.fromisoformat(ack)
-        alarm["mtta_seconds"] = (ack_dt - opened_dt).total_seconds()
+        alarm["mtta_seconds"] = (
+            datetime.fromisoformat(ack) - datetime.fromisoformat(opened)
+        ).total_seconds()
     else:
         alarm["mtta_seconds"] = None
 
-    if opened and cleared:
-        opened_dt = datetime.fromisoformat(opened)
-        cleared_dt = datetime.fromisoformat(cleared)
-        alarm["mttr_seconds"] = (cleared_dt - opened_dt).total_seconds()
+    if opened and resolved:
+        alarm["mttr_seconds"] = (
+            datetime.fromisoformat(resolved) - datetime.fromisoformat(opened)
+        ).total_seconds()
     else:
         alarm["mttr_seconds"] = None
 
-# --------------------------------------------------
-# ORCHESTRATOR AGENT (UPDATED)
-# --------------------------------------------------
-
-def orchestrator_agent(state: AlarmState):
+# ---------------- FLAPPING ----------------
+def flapping_agent(state: AlarmState):
     alarm = state["alarm"]
-    device = alarm.get("device", {})
-    event = alarm.get("event", {})
-    print("alarm orchestration=>>>>>>>>>>>>",alarm)
-    parents = TOPOLOGY.get(get_device_id(alarm), [])
-    root_device = parents[0] if parents else None
-    # Normalize fields to ensure nothing is blank
-    structured_alarm = {
-        "alarmId": alarm.get("alarmId"),
-        "device": {
-            "id": device.get("id"),
-            "name": device.get("name"),
-            "ip": device.get("ip"),
-            "location": device.get("location"),
-            "vendor": device.get("vendor")
-        },
-        "alarmType": event.get("type"),
-        "severity": get_severity(alarm),
+    key = alarm.get("alarm_key")
+    ts = get_ts(alarm)
+
+    # Clean old timestamps
+    history = flap_memory[key]
+    history = [t for t in history if ts - t < FLAP_WINDOW]
+    history.append(ts)
+    flap_memory[key] = history
+
+    is_flap = len(history) >= FLAP_THRESHOLD
+    state["is_flapping"] = is_flap
+
+    # Status logic
+    if key not in last_seen:
+        alarm["status"] = "OPEN"
+    elif is_flap:
+        alarm["status"] = "ACKNOWLEDGED"
+    else:
+        alarm["status"] = "OPEN"
+
+    last_seen[key] = ts
+    return state
+
+# ---------------- RESOLUTION ----------------
+def resolution_check(alarm):
+    key = alarm.get("alarm_key")
+    if key in last_seen:
+        if now() - last_seen[key] > RESOLVE_WINDOW:
+            alarm["status"] = "RESOLVED"
+
+# ---------------- DECISION ----------------
+# def decision_agent(state: AlarmState):
+#     alarm = state["alarm"]
+
+#     if state["is_flapping"]:
+#         state["decision"] = "SUPPRESS_FLAPPING"
+#     elif is_topology_suppressed(alarm):
+#         state["decision"] = "SUPPRESS_TOPOLOGY"
+#     else:
+#         state["decision"] = "CREATE_INCIDENT"
+
+#     return state
+
+# ---------------- ENRICH LIFECYCLE & METRICS ----------------
+def enrich_agent(state: AlarmState):
+    alarm = state["alarm"]
+    resolution_check(alarm)
+    update_lifecycle(alarm)
+    update_metrics(alarm)
+    return state
+
+# ---------------- SAVE RESULTS ----------------
+def save_results():
+    DECISION_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(DECISION_FILE, "w") as f:
+        json.dump(decisions, f, indent=2)
+    with open(COMM_FILE, "w") as f:
+        json.dump(communication_logs, f, indent=2)
+    with open(MTTA_FILE, "w") as f:
+        json.dump(mtta_records, f, indent=2)
+    with open(MTTR_FILE, "w") as f:
+        json.dump(mttr_records, f, indent=2)
+    print("💾 All output files saved successfully")
+
+# ---------------- ORCHESTRATOR ----------------
+def orchestrator(state: AlarmState):
+    alarm = state["alarm"]
+
+    structured = {
+        "alarm_id": alarm.get("alarm_id"),
+        "alarm_key": alarm.get("alarm_key"),
         "status": alarm.get("status"),
-        "classification": alarm.get("classification"),
-        "servicesAffected": alarm.get("servicesAffected"),
-        "customersAffected": alarm.get("customersAffected"),
-        "ip": device.get("ip"),
-        "source": event.get("source"),
-        "message": event.get("message"),
-        "lifecycle": alarm.get("lifecycle", {}),
-        "topology_parent": alarm.get("topology", {}).get("parentDevice"),
+        "message": alarm.get("message"),
+        "severity": alarm.get("severity"),
+        "lifecycle": alarm.get("lifecycle"),
         "mtta_seconds": alarm.get("mtta_seconds"),
         "mttr_seconds": alarm.get("mttr_seconds"),
-       # Agent outputs
         "is_flapping": state["is_flapping"],
-        "topology_suppressed": state["topology_suppressed"],
-        "root_device": root_device,
         "decision": state["decision"]
     }
 
-    # Save locally for debugging / reporting
+    # Save decisions
     decisions.append({
-        "alarm_id": alarm.get("alarmId"),
-        "device": device.get("id"),
+        "alarm_id": structured["alarm_id"],
+        "device_name": alarm.get("device_name"),
         "decision": state["decision"],
-        "flapping": state["is_flapping"],
-        "topology": state["topology_suppressed"]
+        "flapping": state["is_flapping"]
     })
 
-    # Push to Kafka
-    try:
-        producer.send(SUPPRESSED_TOPIC, json.dumps(structured_alarm).encode("utf-8"))
-        producer.flush()
-        print(f"📤 Structured alarm sent to Kafka → {alarm['alarmId']}")
-    except Exception as e:
-        print(f"❌ Failed to send alarm {alarm['alarmId']} to Kafka: {e}")
+    # Communication logs
+    if state["decision"] == "SUPPRESS_FLAPPING":
+        communication_logs.append({
+            "type": "flapping",
+            "alarm_id": structured["alarm_id"],
+            "message": "Flapping detected → suppressed"
 
+        })
+
+    if state["decision"] == "SUPPRESS_TOPOLOGY":
+        communication_logs.append({
+            "type": "topology",
+            "alarm_id": structured["alarm_id"],
+            "message": "Topology detected → suppressed"
+        })  
+
+    # Metrics
+    if structured["mtta_seconds"] is not None:
+        mtta_records.append({
+            "alarm_id": structured["alarm_id"],
+            "mtta_seconds": structured["mtta_seconds"]
+        })
+
+    if structured["mttr_seconds"] is not None:
+        mttr_records.append({
+            "alarm_id": structured["alarm_id"],
+            "mttr_seconds": structured["mttr_seconds"]
+        })
+
+    # Send to Kafka
+    producer.send(OUTPUT_TOPIC, structured)
+    producer.flush()
+
+    print("📤 Sent:", structured["alarm_id"], structured["status"])
     return state
-# --------------------------------------------------
-# BUILD GRAPH
-# --------------------------------------------------
 
+# ---------------- WORKFLOW ----------------
 workflow = StateGraph(AlarmState)
-workflow.add_node("flapping", flapping_agent)
-workflow.add_node("topology", topology_agent)
-workflow.add_node("super", super_agent)
-workflow.add_node("communication", communication_agent)
-workflow.add_node("orchestrator", orchestrator_agent)
-workflow.set_entry_point("flapping")
-workflow.add_edge("flapping", "topology")
-workflow.add_edge("topology", "super")
-workflow.add_edge("super", "communication")
-workflow.add_edge("communication", "orchestrator")
+workflow.add_node("flap", flapping_agent)
+workflow.add_node("decision", decision_agent)
+workflow.add_node("enrich", enrich_agent)
+workflow.add_node("orchestrator", orchestrator)
+
+workflow.set_entry_point("flap")
+workflow.add_edge("flap", "decision")
+workflow.add_edge("decision", "enrich")
+workflow.add_edge("enrich", "orchestrator")
+
 app = workflow.compile()
 
-# --------------------------------------------------
-# PIPELINE
-# --------------------------------------------------
+# ---------------- MAIN LOOP ----------------
+print("🚀 Flapping Agent Listening...")
 
-def run_pipeline(classified_file, monitoring_file):
-    alarms = merge_alarm_data(monitoring_file, classified_file)
-    alarms = sorted(alarms, key=get_alarm_timestamp)
-    for alarm in alarms:
-        update_metrics(alarm)
-        state = {
-            "alarm": alarm,
-            "is_flapping": False,
-            "topology_suppressed": False,
-            "root_device": None,
-            "decision": ""
-        }
-        state = app.invoke(state)
+IDLE_TIMEOUT = 10
+last_message_time = time.time()
+
+try:
+    while True:
+        records = consumer.poll(timeout_ms=1000)
+        if records:
+            for tp, msgs in records.items():
+                for msg in msgs:
+                    alarm = msg.value
+
+                    state = {
+                        "alarm": alarm,
+                        "is_flapping": False,
+                        "decision": ""
+                    }
+
+                    state = app.invoke(state)
+                    last_message_time = time.time()
+
+        else:
+            if time.time() - last_message_time > IDLE_TIMEOUT:
+                print("🛑 No messages for a while. Exiting...")
+                break
+
+finally:
+    consumer.close()
     save_results()
-
-# --------------------------------------------------
-# SAVE OUTPUT
-# --------------------------------------------------
-
-def save_results():
-    json.dump(decisions, open(BASE_DIR / "data/alarm_decisions.json", "w"), indent=2)
-    json.dump(communication_logs, open(BASE_DIR / "data/communication_logs.json", "w"), indent=2)
-    json.dump(mtta_records, open(BASE_DIR / "data/mtta_results.json", "w"), indent=2)
-    json.dump(mttr_records, open(BASE_DIR / "data/mttr_results.json", "w"), indent=2)
-
-# --------------------------------------------------
-# MAIN
-# --------------------------------------------------
-
-if __name__ == "__main__":
-    run_pipeline(
-        classified_file=BASE_DIR / "data/classified_alarms_output.jsonl",
-        monitoring_file=BASE_DIR / "data/monitoring_agent_output.jsonl"
-    )
-    
+    print("✅ Flapping agent completed and files saved")

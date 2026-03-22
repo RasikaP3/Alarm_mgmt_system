@@ -12,11 +12,9 @@ LOG_DIR="$BASE_DIR/noc_logs"
 mkdir -p "$LOG_DIR"
 
 TOPICS=(
-"raw-events"
-"structured-alarms"
-"classified-alarms"
-"suppressed-alarms"
-"incidents"
+"rawalarm"
+"classifiedalarms"
+"structuredalarms"
 )
 
 echo "---------------------------------"
@@ -48,9 +46,9 @@ if [[ "$1" == "--reset" ]]; then
     done
 
     # Clear local logs
-    if [ -f "classified_alarms_output.jsonl" ]; then
+    if [ -f "classifiedalarms_output.jsonl" ]; then
         echo "📄 Clearing local JSONL logs..."
-        > classified_alarms_output.jsonl
+        > classifiedalarms_output.jsonl
     fi
 
     echo "✅ Reset complete."
