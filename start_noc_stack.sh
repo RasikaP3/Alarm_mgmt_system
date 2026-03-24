@@ -12,9 +12,8 @@ LOG_DIR="$BASE_DIR/noc_logs"
 mkdir -p "$LOG_DIR"
 
 TOPICS=(
-"rawalarm"
-"classifiedalarms"
 "structuredalarms"
+"classifiedalarms"
 )
 
 echo "---------------------------------"

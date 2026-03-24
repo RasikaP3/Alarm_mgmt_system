@@ -14,7 +14,6 @@ db.createCollection("devices")
 db.createCollection("topology")
 db.createCollection("services")
 db.createCollection("customers")
-db.createCollection("raw_events")
 db.createCollection("engineers")
 db.createCollection("shift_schedule")
 print("Collections created")
@@ -35,15 +34,15 @@ print("Devices inserted")
 # -- truncated for brevity, use your previous insertion code --
 
 # Indexes
-db.raw_events.createIndex({createdAt:-1})
-db.raw_events.createIndex({device_name:1})
+# db.raw_events.createIndex({createdAt:-1})
+# db.raw_events.createIndex({device_name:1})
 db.alarms.createIndex({alarmId:1})
 print("Indexes created")
 EOF
 
 # Import generated events (JSON array)
-mongoimport --db $DB_NAME --collection raw_events --file $EVENT_FILE --jsonArray
-echo "Raw events imported"
+# mongoimport --db $DB_NAME --collection raw_events --file $EVENT_FILE --jsonArray
+# echo "Raw events imported"
 
 # Quick validation
 mongosh $DB_NAME --eval 'print("Raw Events Count:", db.raw_events.countDocuments()); db.raw_events.findOne();'
