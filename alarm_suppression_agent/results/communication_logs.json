@@ -1,0 +1,2541 @@
+[
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "topology",
+    "device": "acc-4",
+    "root_device": "agg-2",
+    "impact_radius": 0,
+    "message": "Root cause agg-2 detected. Impact 0. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-1",
+    "root_device": "core-1",
+    "impact_radius": 4,
+    "message": "Root cause core-1 detected. Impact 4. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-2",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-4",
+    "root_device": "agg-2",
+    "impact_radius": 0,
+    "message": "Root cause agg-2 detected. Impact 0. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-4",
+    "root_device": "agg-2",
+    "impact_radius": 0,
+    "message": "Root cause agg-2 detected. Impact 0. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-2",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-1",
+    "root_device": "core-1",
+    "impact_radius": 4,
+    "message": "Root cause core-1 detected. Impact 4. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-2",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-1",
+    "root_device": "core-1",
+    "impact_radius": 4,
+    "message": "Root cause core-1 detected. Impact 4. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-2",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-1",
+    "root_device": "core-1",
+    "impact_radius": 4,
+    "message": "Root cause core-1 detected. Impact 4. SLA applied."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "topology",
+    "device": "agg-1",
+    "root_device": "core-1",
+    "impact_radius": 4,
+    "message": "Root cause core-1 detected. Impact 4. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-1",
+    "root_device": "core-1",
+    "impact_radius": 4,
+    "message": "Root cause core-1 detected. Impact 4. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-1",
+    "root_device": "core-1",
+    "impact_radius": 4,
+    "message": "Root cause core-1 detected. Impact 4. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-2",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-4",
+    "root_device": "agg-2",
+    "impact_radius": 0,
+    "message": "Root cause agg-2 detected. Impact 0. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-1",
+    "root_device": "core-1",
+    "impact_radius": 4,
+    "message": "Root cause core-1 detected. Impact 4. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-2",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-1",
+    "root_device": "core-1",
+    "impact_radius": 4,
+    "message": "Root cause core-1 detected. Impact 4. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-2",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-4",
+    "root_device": "agg-2",
+    "impact_radius": 0,
+    "message": "Root cause agg-2 detected. Impact 0. SLA applied."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "topology",
+    "device": "acc-1",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-4",
+    "root_device": "agg-2",
+    "impact_radius": 0,
+    "message": "Root cause agg-2 detected. Impact 0. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-1",
+    "root_device": "core-1",
+    "impact_radius": 4,
+    "message": "Root cause core-1 detected. Impact 4. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-2",
+    "root_device": "agg-1",
+    "impact_radius": 2,
+    "message": "Root cause agg-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "acc-3",
+    "root_device": "agg-2",
+    "impact_radius": 2,
+    "message": "Root cause agg-2 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-1",
+    "root_device": "core-1",
+    "impact_radius": 4,
+    "message": "Root cause core-1 detected. Impact 4. SLA applied."
+  },
+  {
+    "type": "topology",
+    "device": "agg-2",
+    "root_device": "core-1",
+    "impact_radius": 2,
+    "message": "Root cause core-1 detected. Impact 2. SLA applied."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "agg-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-3",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-4",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "core-1",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  },
+  {
+    "type": "flapping",
+    "device": "acc-2",
+    "message": "Flapping detected. Suppressing repeated alarms."
+  }
+]
