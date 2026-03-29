@@ -9,7 +9,7 @@ def communication_agent(state):
             "device": alarm["device_name"],
             "root_device": state["root_device"],
             "impact_radius": state["impact_radius"],
-            "message": f"Root cause {state['root_device']} detected. Impact {state['impact_radius']}. SLA applied."
+            "message": f"Suppressed due to upstream root {state['root_device']}."
         }
 
     elif state["decision"] == "SUPPRESS_FLAPPING":

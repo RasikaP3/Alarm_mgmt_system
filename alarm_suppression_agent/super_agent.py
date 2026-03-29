@@ -1,6 +1,5 @@
 import json
 from datetime import datetime, timedelta
-from collections import defaultdict
 from typing import TypedDict, Optional
 
 from langgraph.graph import StateGraph
@@ -9,133 +8,89 @@ from flapping_agent import flapping_agent
 from topology_agent import topology_agent
 from communication_agent import communication_agent
 
-# -----------------------------
-# GLOBAL STORAGE
-# -----------------------------
+# -----------------------------------
+# STORAGE
+# -----------------------------------
 
 decisions = []
 communication_logs = []
 mtta_records = []
 mttr_records = []
+enriched_alarms = []
 
-# -----------------------------
-# SLA CONFIG
-# -----------------------------
-
-SLA_CONFIG = {
-    "P1": {"mtta": 30, "mttr": 300},
-    "P2": {"mtta": 60, "mttr": 600},
-    "P3": {"mtta": 120, "mttr": 1200}
-}
-
-# -----------------------------
+# -----------------------------------
 # STATE
-# -----------------------------
+# -----------------------------------
 
 class AlarmState(TypedDict):
     alarm: dict
     is_flapping: bool
     topology_suppressed: bool
     root_device: Optional[str]
-    root_type: Optional[str]
     impact_radius: int
     decision: str
 
-# -----------------------------
+# -----------------------------------
 # UTILS
-# -----------------------------
+# -----------------------------------
 
 def get_ts(alarm):
     return datetime.fromisoformat(alarm["createdAt"].replace("Z",""))
 
-# -----------------------------
-# PRIORITY
-# -----------------------------
+# -----------------------------------
+# LIFECYCLE (NO SLA)
+# -----------------------------------
 
-def get_priority(alarm, impact):
-
-    severity = alarm.get("severity", "")
-
-    if isinstance(severity, dict):
-        severity = severity.get("adjusted", "")
-
-    severity = severity.lower()
-
-    if severity == "critical" and impact > 200:
-        return "P1"
-    elif severity == "critical":
-        return "P2"
-    elif severity == "major":
-        return "P2"
-    else:
-        return "P3"
-
-# -----------------------------
-# ROOT MULTIPLIER
-# -----------------------------
-
-def get_root_multiplier(root_type):
-
-    if root_type == "CORE":
-        return 2.0
-    elif root_type == "AGG":
-        return 1.5
-    else:
-        return 1.0
-
-# -----------------------------
-# LIFECYCLE
-# -----------------------------
-
-def inject_lifecycle(alarm, state):
+def inject_lifecycle(alarm, decision):
 
     ts_open = get_ts(alarm)
 
-    impact = state.get("impact_radius", 0)
-    root_type = state.get("root_type")
+    if decision == "SUPPRESS_FLAPPING":
+        ack = ts_open + timedelta(seconds=10)
+        clear = ts_open + timedelta(seconds=30)
 
-    priority = get_priority(alarm, impact)
-    sla = SLA_CONFIG[priority]
+    elif decision == "SUPPRESS_TOPOLOGY":
+        ack = ts_open + timedelta(seconds=30)
+        clear = ts_open + timedelta(seconds=120)
 
-    multiplier = get_root_multiplier(root_type)
+    elif decision == "CREATE_INCIDENT":
+        ack = ts_open + timedelta(seconds=60)
+        clear = ts_open + timedelta(seconds=300)
 
-    mtta = sla["mtta"]
-    mttr = int(sla["mttr"] * multiplier)
+    else:
+        return None, None
 
-    ack_time = ts_open + timedelta(seconds=mtta)
-    clear_time = ts_open + timedelta(seconds=mttr)
+    return ack, clear
 
-    return ack_time, clear_time, priority
-
-# -----------------------------
+# -----------------------------------
 # METRICS
-# -----------------------------
+# -----------------------------------
 
-def update_metrics(alarm, state):
+def update_metrics(alarm, decision):
 
     alarm_id = alarm["alarm_id"]
     ts_open = get_ts(alarm)
 
-    ack_time, clear_time, priority = inject_lifecycle(alarm, state)
+    ack, clear = inject_lifecycle(alarm, decision)
+
+    if ack is None:
+        return
 
     mtta_records.append({
         "alarm_id": alarm_id,
-        "mtta_seconds": (ack_time - ts_open).total_seconds(),
-        "priority": priority,
-        "decision": state["decision"]
+        "mtta_seconds": (ack - ts_open).total_seconds(),
+        "decision": decision
     })
 
     mttr_records.append({
         "alarm_id": alarm_id,
-        "mttr_seconds": (clear_time - ts_open).total_seconds(),
-        "priority": priority,
-        "root_type": state.get("root_type"),
-        "decision": state["decision"]
+        "mttr_seconds": (clear - ts_open).total_seconds(),
+        "decision": decision
     })
 
-# -----------------------------
+# -----------------------------------
 # GRAPH NODES
-# -----------------------------
+# -----------------------------------
 
 def flap_node(state):
     return flapping_agent(state)
@@ -149,10 +104,13 @@ def decision_node(state):
 
     if state["topology_suppressed"]:
         state["decision"] = "SUPPRESS_TOPOLOGY"
+
     elif state["is_flapping"]:
         state["decision"] = "SUPPRESS_FLAPPING"
+
     elif alarm.get("orchestrator_action") == "MONITOR_CORRELATED":
         state["decision"] = "MONITOR_ONLY"
+
     else:
         state["decision"] = "CREATE_INCIDENT"
 
@@ -171,19 +129,27 @@ def orchestrator_node(state):
 
     alarm = state["alarm"]
 
-    decisions.append({
+    record = {
         "alarm_id": alarm["alarm_id"],
         "device": alarm["device_name"],
         "decision": state["decision"],
-        "root": state["root_device"],
-        "impact": state["impact_radius"]
-    })
+    }
+
+    
+    # Include impact ONLY when needed
+    if state["decision"] in ["SUPPRESS_TOPOLOGY", "CREATE_INCIDENT"]:
+        record["impact"] = state["impact_radius"]
+    
+    if state["root_device"] is not None:
+        record["root"] = state["root_device"]
+
+    decisions.append(record)
 
     return state
 
-# -----------------------------
+# -----------------------------------
 # BUILD GRAPH
-# -----------------------------
+# -----------------------------------
 
 workflow = StateGraph(AlarmState)
 
@@ -202,9 +168,9 @@ workflow.add_edge("comm", "orchestrator")
 
 app = workflow.compile()
 
-# -----------------------------
-# LOAD DATA
-# -----------------------------
+# -----------------------------------
+# LOAD
+# -----------------------------------
 
 def load_jsonl(path):
     data = []
@@ -214,9 +180,12 @@ def load_jsonl(path):
                 data.append(json.loads(line))
     return data
 
-# -----------------------------
+# -----------------------------------
 # RUN
-# -----------------------------
+# -----------------------------------
+
+import os
+os.makedirs('results_29_03_2026', exist_ok=True)
 
 def run():
 
@@ -230,19 +199,35 @@ def run():
             "is_flapping": False,
             "topology_suppressed": False,
             "root_device": None,
-            "root_type": None,
             "impact_radius": 0,
             "decision": ""
         }
 
         state = app.invoke(state)
 
-        update_metrics(alarm, state)
+        # Metrics
+        update_metrics(alarm, state["decision"])
 
-    json.dump(decisions, open("results_27_03_2026/alarm_decisions.json", "w"), indent=2)
-    json.dump(communication_logs, open("results_27_03_2026/communication_logs.json", "w"), indent=2)
-    json.dump(mtta_records, open("results_27_03_2026/mtta_results.json", "w"), indent=2)
-    json.dump(mttr_records, open("results_27_03_2026/mttr_results.json", "w"), indent=2)
+        # Enriched output
+        ack, clear = inject_lifecycle(alarm, state["decision"])
+
+        enriched = alarm.copy()
+        enriched["decision"] = state["decision"]
+
+        if ack:
+            enriched["acknowledged_at"] = ack.isoformat()
+
+        if clear:
+            enriched["cleared_at"] = clear.isoformat()
+
+        enriched_alarms.append(enriched)
+
+    # SAVE FILES
+    json.dump(decisions, open("results_29_03_2026/alarm_decisions.json", "w"), indent=2)
+    json.dump(communication_logs, open("results_29_03_2026/communication_logs.json", "w"), indent=2)
+    json.dump(mtta_records, open("results_29_03_2026/mtta_results.json", "w"), indent=2)
+    json.dump(mttr_records, open("results_29_03_2026/mttr_results.json", "w"), indent=2)
+    json.dump(enriched_alarms, open("results_29_03_2026/enriched_alarms.json", "w"), indent=2)
 
 if __name__ == "__main__":
     run()
