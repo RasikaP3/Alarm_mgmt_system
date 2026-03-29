@@ -1,16 +1,3 @@
-def get_device_type(device):
-
-    if device is None:
-        return None
-
-    if "CORE" in device:
-        return "CORE"
-    elif "AGG" in device:
-        return "AGG"
-    else:
-        return "ACC"
-
-
 def topology_agent(state):
 
     alarm = state["alarm"]
@@ -31,6 +18,5 @@ def topology_agent(state):
     state["topology_suppressed"] = suppressed
     state["root_device"] = root_device
     state["impact_radius"] = impact
-    state["root_type"] = get_device_type(root_device)
 
     return state

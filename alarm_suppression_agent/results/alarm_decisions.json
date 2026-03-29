@@ -3,3339 +3,2944 @@
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe2f8564-7de9-42f5-be1f-a015da494c3d",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
+    "impact": 2,
+    "root": "agg-1"
+  },
+  {
+    "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
+    "device": "acc-1",
+    "decision": "SUPPRESS_FLAPPING",
     "impact": 2
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
-    "impact": 2
-  },
-  {
-    "alarm_id": "9ef15629-c282-477f-b654-9cf5156d14ba",
-    "device": "acc-1",
-    "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "f7e9917a-1064-4511-8170-119ca017df4b",
     "device": "acc-4",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 0
+    "impact": 0,
+    "root": "agg-2"
   },
   {
     "alarm_id": "f84ea278-1ff7-47a3-90dc-065fe078fce9",
     "device": "agg-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 4
+    "impact": 4,
+    "root": "core-1"
   },
   {
     "alarm_id": "1a41b3cb-afe9-42a4-88a8-17ebc3885e46",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "bfa2a82e-1a69-40b4-ae00-26ca6416e235",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "9d43431d-3cd1-4c90-88d0-334a27115d21",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "ec13ea85-cd41-4ada-848e-4131f7024287",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "81e26081-0bc0-4a61-83d6-b3d9fec2b860",
     "device": "acc-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "02a19794-8fdc-4736-af14-c4f5377ae4be",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "c1ca77e1-42c8-49e8-884f-80d1eb60d9dd",
     "device": "acc-4",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 0
+    "impact": 0,
+    "root": "agg-2"
   },
   {
     "alarm_id": "fe429ea4-886a-4149-bb61-4b54c246da80",
     "device": "core-1",
     "decision": "MONITOR_ONLY",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "554fe4b2-a135-4c49-8dae-d590688dcc47",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "6296b366-8363-4200-9725-eed3e289e2df",
     "device": "acc-4",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 0
+    "impact": 0,
+    "root": "agg-2"
   },
   {
     "alarm_id": "baf8b0d5-082e-46de-b86e-95017c7a2e89",
     "device": "acc-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "2f6b2f9d-05f0-4feb-8146-a2da0e9e03cc",
     "device": "agg-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 4
+    "impact": 4,
+    "root": "core-1"
   },
   {
     "alarm_id": "952e9996-d435-4a52-a6cc-b6602469c7a6",
     "device": "core-1",
     "decision": "MONITOR_ONLY",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "3624218d-57a3-4ebd-a973-8c127afa6979",
     "device": "acc-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "c6582f26-cfee-4d16-a877-8f7957ed7e2c",
     "device": "agg-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 4
+    "impact": 4,
+    "root": "core-1"
   },
   {
     "alarm_id": "caea1714-7677-41db-8d71-9435606ed5b5",
     "device": "acc-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "58d8559a-7d6d-4afe-9638-b6824fb86dcd",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "bffb2d40-3dcd-4b56-afe0-ba59c67abaa9",
     "device": "agg-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 4
+    "impact": 4,
+    "root": "core-1"
   },
   {
     "alarm_id": "159a7d40-c95e-4131-989a-51bb5288253d",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "99db31b9-8b32-4cec-8626-49ebced31237",
     "device": "agg-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 4
+    "impact": 4,
+    "root": "core-1"
   },
   {
     "alarm_id": "26efc886-df01-4729-b240-d77a0cec7f77",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "a2586ddd-790f-41cb-9b8f-83c3feb690bf",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "da4802e1-f6e5-4707-a5d9-ba812d15e85e",
     "device": "agg-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 4
+    "impact": 4,
+    "root": "core-1"
   },
   {
     "alarm_id": "11ff07f2-fcd9-4a88-9070-3ff4b6c87e19",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "0fca7504-a67e-4f7c-b56f-d4f7042b4808",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "98ff01a4-4ca9-43b2-97fb-06b0d520769f",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "06218276-6ccf-4ae2-836b-03b3d819daee",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "a94fa7dc-5cee-4460-9030-99fdcf4da1e5",
     "device": "agg-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 4
+    "impact": 4,
+    "root": "core-1"
   },
   {
     "alarm_id": "320b9bb9-50a8-4e37-9e25-4636ec753b7a",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "1f2bc582-b441-4e8a-9ffd-5371007bce5a",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "fead0913-5aa9-4b41-b150-bca732b94362",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "14fae207-c8b0-43f0-abf9-ea7d2368c841",
     "device": "acc-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "ffa6744a-31d4-4720-b867-1df8517239ce",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "de977e65-9b58-4e16-b7ed-9d30a6bdaf69",
     "device": "acc-4",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 0
+    "impact": 0,
+    "root": "agg-2"
   },
   {
     "alarm_id": "77558195-49aa-4e6c-8532-01f19b55a873",
     "device": "agg-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 4
+    "impact": 4,
+    "root": "core-1"
   },
   {
     "alarm_id": "6a8fd367-c932-4c69-b921-c87d9b3c3719",
     "device": "acc-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "57ff1dd2-8f1b-4b03-976c-cf190b37ebd2",
     "device": "agg-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 4
+    "impact": 4,
+    "root": "core-1"
   },
   {
     "alarm_id": "fce89b63-2471-4abf-9eac-b43b3733c62d",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "69e5d89a-fc2c-4379-9bd3-57841aaa7ace",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "e8dbafe8-7f52-4142-8673-a2b4cb2855ad",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "905a1cf4-6779-44fc-b5c1-9a331334a7bc",
     "device": "acc-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "ac6a4976-9ac5-48f5-9fb0-e839a32bd1fd",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "35368124-ce54-4152-b00d-cd2884ccb1b9",
     "device": "acc-4",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 0
+    "impact": 0,
+    "root": "agg-2"
   },
   {
     "alarm_id": "452ca7f0-3ffe-49d2-a472-2d3cb18a9e39",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "f3eb94c7-cd21-4746-981c-81d6832d4e1d",
     "device": "acc-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "80ccfea7-2ae4-4253-a84f-78b6058a7dcf",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "b4364cc9-86ca-41e5-b2bc-069dc3ec3cab",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "9c48c1c7-e7a2-4ef4-b1d7-41d562ce645d",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "a79bf117-9124-4381-8a8f-67d59d5b0234",
     "device": "acc-4",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 0
+    "impact": 0,
+    "root": "agg-2"
   },
   {
     "alarm_id": "8f681694-a463-437d-8c25-3d2f8701ebbf",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "74d24f44-22f4-4f95-8603-f3ea8e2eb732",
     "device": "agg-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 4
+    "impact": 4,
+    "root": "core-1"
   },
   {
     "alarm_id": "a291fe4a-d4de-4236-a7bf-3db480e20ad4",
     "device": "acc-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-1",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-1"
   },
   {
     "alarm_id": "63e70457-2fbd-4dae-9534-94efd1716f6f",
     "device": "acc-3",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "agg-2",
-    "impact": 2
+    "impact": 2,
+    "root": "agg-2"
   },
   {
     "alarm_id": "8aeeaf58-4c6d-4161-9cba-b4ecd71de1f6",
     "device": "agg-1",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 4
+    "impact": 4,
+    "root": "core-1"
   },
   {
     "alarm_id": "f6b5a4df-ef1d-4618-a5f2-4f5cfd70d022",
     "device": "agg-2",
     "decision": "SUPPRESS_TOPOLOGY",
-    "root": "core-1",
-    "impact": 2
+    "impact": 2,
+    "root": "core-1"
   },
   {
     "alarm_id": "ef703715-c590-4dd8-bd06-335c2be753b2",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "efbcab19-8711-47dc-9af5-4a33e2c5bd99",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "1ded14ce-76b7-4d10-9f89-8c452eb78230",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "289d8c25-5fdc-47e9-b8b0-cf3cf8941cfe",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "fffdd4ca-3f78-4081-aaf4-6c3423e0c1e0",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "eea9ec76-229d-4226-8d6b-d27f2d98a712",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "19c3e6c7-c290-4ee5-9fda-a1e33bbc4f40",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "6075fbe6-664b-42b0-b69d-191f2de1b613",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "a972bfc5-be8b-41c2-a245-ff389e5d2f89",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "5817ae0d-9b2e-434b-8a66-be6e157f183e",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "a0ed1398-f18b-477c-9b18-40c19f885a33",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "a295a47e-a46a-4ee6-8a18-ff644e79645b",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "231a885b-431e-411a-a135-0c38a5869b7f",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "ec037e12-57f8-41ae-afb1-c2dd83d2ffdf",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "5150c949-1327-4086-9d7a-50dde6d7a761",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "5a56d3f0-bbf9-4c74-9fdc-18ef58e3f0bb",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "b05747bd-138d-4c98-ae12-591f520c9be3",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "4080bc5d-b655-4fc4-a3a4-f87076f1118d",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "63a45d47-7753-4da4-9d27-b7d08f724807",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "435c6570-b9fd-4a03-9236-067b49967e55",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "6e77abfe-6652-4150-8623-152746ce4713",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "526158f1-1540-44da-923e-09750ea3d6be",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "40bf2419-25e5-4814-9de9-97728bf15b94",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "39b820f6-c6ad-417a-8fd3-be385290dd26",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "c334fc47-a887-456a-a388-b2f927df61b2",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "e48ff1d7-34f2-44bf-a572-e2e77763d49a",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "9e296918-412d-4beb-89d6-13e10b09b66d",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "3976af0c-5d9c-4cfc-a613-30a5ad10b263",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "77d309f8-2c47-4b84-b0df-0b9db403d9f3",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "5a223137-5603-4341-a48f-0fd73b7fbe66",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "23d36094-32cb-4b34-9525-43f03576f689",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "e78a4d27-d104-4902-84ec-dfbcb43a5e68",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "2bf12710-48df-4a2c-bd2c-3c7b44f66a60",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "fdc00789-9a77-4a8d-949e-0b88f73be869",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "53cd7e30-7a6c-4e11-ad6a-d2f44009f575",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "750c011e-effe-4582-85a3-48fcda775490",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "36f3e096-a99e-4585-bc1f-5cb5b044c84d",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "bfe36263-8f80-4301-a3a6-0c4af0dd8990",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "9fb67e15-1ad0-4da2-aaaf-9392a734695f",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "01383af6-bf2b-4f26-b711-1fc261bee234",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "445fbe6e-b0c9-429c-8ff5-377fa38748f7",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "11896f9c-c8c1-4d9b-bb79-5b3bad43ffe2",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "08bad5f0-ac47-4ee2-834e-9c9021630770",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "5c9b7c93-763b-44a6-8971-d41f0787d43c",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "4d2c87fc-db40-41dc-8dfa-5581e1876320",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "82c69481-1e01-4d57-9a05-620ec6a9d1f6",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "aab7622c-1e6d-4029-97a7-d73db43ff7d0",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b9c5d211-1e81-4b42-ae3f-35373250eb95",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "2a8b68bf-6945-4627-b54f-e657c81ea0f8",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "e2adf759-2628-4c68-971e-ce907e5c4472",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "af7c00a7-f400-4f56-a7e7-b6794a7e800e",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "551a80b8-9c6e-4e07-af24-bb00f0ba9945",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "e9db1ad6-7f5e-44c9-bd9a-674d622a324f",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "e04ecb67-d65f-47e1-9d0c-6321ef005186",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "112c5df7-cc5e-4c95-a160-dbeda8a8a242",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "778bfd95-4ddb-4303-8d8b-256389474683",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "7c53989f-25a8-448b-939d-402757b44011",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "109d0e6b-2f92-4455-8fc2-7fff967967f2",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "f23dcc99-8ffa-4fa3-bb93-848f364885cb",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "78168351-6bd2-4af0-a9ca-3255dc4008c2",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "2b0a2156-f2da-44ff-88b3-9c2418dcb386",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "02273327-3540-45fa-a39f-ba3ba52ad876",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "cd0e7027-3a3d-4486-8b24-de6a903d25b3",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "ea2747b4-d77a-4dc8-b73a-00b3145d981e",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b02a97bc-edae-462e-9126-fc144ad6f36a",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "7ac097c4-c1bf-4ce2-94b6-1e474f217647",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "d94b3762-cbfe-4f86-88a1-adcda56e3ebb",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "8f20a05c-6176-48b2-8087-8707e4379ace",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "53ff88c5-b522-463c-a4cf-11e00e6c21e7",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "309346ae-01d6-4fb9-a388-4ea6194e4900",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "13aa0412-ce05-4217-95b8-949fedd8bc98",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "e87236e0-3ed1-4289-ba91-3ce46d20df27",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "6cf2d638-e485-47de-80be-597ab3d1f4e8",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "5fdb27a2-ef6f-49d2-81f3-573504ade21e",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "00821d05-3ea1-400b-ae26-fa60a925fd26",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "51cfc99e-4045-4a8e-8c6c-27b7383cc77c",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "5ef8c165-2347-49bb-b7bf-bac312edff63",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "e4488386-545a-46b8-a874-b9e4897ccaf2",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "53a512f6-80f9-4e7c-909b-5d7992b9714a",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "eb8c8eea-a0bd-4576-9dad-a97f55600f90",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "f3d6f857-4944-4eb8-8eba-239dad04d017",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "d89949f1-9c64-4f68-9869-a0af29a1a4e8",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "e3d646ee-14e4-4896-9a7f-f734399ba7df",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "bd32d354-6464-45d9-8168-316d1a19a38c",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "161f63a9-24df-4ab8-97ed-f6ea7bbceeac",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "11ebfd37-b6fc-4c1f-bc3a-5776a8d3aecd",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "d00f10fa-c307-426f-baf0-00b6d2cae26f",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "724135c8-e027-4aea-9269-7609b64ac6cb",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "5191fb7d-a9ac-4952-a8e2-a010acb01336",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "0edd9354-a88a-4297-8a98-2a92abbbc26e",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "35f890b5-16ff-470b-82a8-799e501dcd72",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "02923000-a5f2-4213-94f1-b7fe09ede0ea",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "df0cde83-b92b-40b4-acca-a419a6076c9b",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "6070d496-90ef-4625-9f1c-f010e1416b23",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "0c6a6369-21b6-4766-a9b9-36a1b5af49cf",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "03860bc4-3405-43ae-a935-5918d40d18d8",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b6202059-e8a5-402a-b616-e3173d68c663",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "03acea3e-8e52-4835-8e88-e357b5e43aa9",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "c3d66c5e-9870-4864-bcc7-2e7ffffb2b7a",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "56e2dedf-dee4-4f9e-91bb-b183615009cb",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "1f589b8a-3ac2-413e-a106-4973cb8a7ca2",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "22604095-3bb5-4b1b-925e-e7bfe742516a",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "fa22223d-8f5b-4c37-b78a-8cd64fcf1267",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "19a7d372-a04b-4ec1-86c9-cf7c74441990",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "d87a5543-0069-4ea5-993a-8913c7389f64",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "7712d30e-30e5-4ae9-8a51-adde00575ad2",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "53cf976f-7977-45b1-acd8-c56e1a0ee8c3",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "1f59b02c-b9f9-441a-b6e8-456eb2b5cd54",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "f4d740bc-7215-48c2-9635-000d08b92187",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b74b6288-b9fe-49a0-9079-861035735c66",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "cba61a12-61b7-47e6-9612-0a6a69adb082",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "c8dd192e-17c4-44eb-ba7d-6bae5a8b25e6",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "629f21d5-e05f-4993-886d-3839250361b7",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "9ae7a1db-a171-4edf-b6ba-e7f2b6496357",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "8d1a8114-24dd-40b3-9988-b12af460e305",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "85a4a80d-ff1a-4566-848f-108fc5c6d30c",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "1b63a8c5-db54-4008-acac-89d6784c88ef",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "adfb6545-722a-4b4a-847b-c6d8a335e895",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "36ef14a7-c727-4ec5-8c9e-cbebdc599ec8",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "9cf6736a-3ce0-46df-9fdd-1d717aa54243",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "9480634c-eca4-4816-8c9e-c11504be6e06",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "a647b0d6-4192-40ea-a579-58c46a9cd7c0",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "7bf42bd4-92c2-419b-b41d-e45b7e95c876",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "aceef5a9-437b-4109-b406-84488fe3a0a0",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "79713733-69cf-40c3-aa7a-85620ef39ebc",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "ceefc445-5dc5-4e1d-94fd-b66c33ed0ff3",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "a5d62b4b-6baa-4ae7-8c32-dcfb5dc7659e",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "37c1cea5-cc87-4d45-a177-83391095cf08",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "803059c9-0bde-4e40-a66d-48401fba4964",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "aad6f898-9727-4a04-9d57-3552743b8bc1",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "72c6f05f-e94e-437d-9df0-f8176ef26a28",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "47f8c1a6-a837-420c-9e13-98ceebbbfdcb",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "cc3d9975-9705-4675-bf31-1dcdd074f195",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "54a272eb-32bb-46f7-a73f-b8aafc8e88ed",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "bf526b92-f78f-4922-a828-97a2d3f6c294",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "49c7404f-6e29-4e03-8290-5c401dd46ff9",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "07c92569-7318-481d-8d62-93e6e7dfa74b",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "3516cb69-05d7-41f3-a5b7-2327c4a40561",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "97603322-dc34-4ce9-ae99-7b4a822e6d14",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "35580a04-d801-460c-ab57-888da4fa9cf2",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "cf686792-62be-4b84-ac89-406ea5ea026b",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "2690fffd-4b8c-4217-889d-5adf923dbc21",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "76990e54-dad0-4800-a3cd-bd57295fadd1",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "5bf0c94d-e563-45ed-9311-c7ef26960f36",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "d83bc290-4830-49bd-9323-5403acd29332",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "e1b2920e-5680-45b7-a8f2-1823e2535d6e",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "efe5a589-240c-4241-a4bf-851bc3531536",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "f2c313ea-e48d-44d3-9d01-0db203c411c6",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "1489a66a-b487-4a1e-b206-b940230cab0a",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "9fe97bb8-2c1a-4fd0-aa32-b1c11b198166",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "b033ab96-bbe8-4fd4-9fd8-f43cd5df0552",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "ebd2739d-ad9e-4a50-9dee-801c3db0bb73",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "1936b93e-c2b9-41af-bfcb-3e3243292a09",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "6cc96ca1-7a7e-4520-8004-537f84fb8f7b",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "e2f9e76a-bca6-4c74-90c9-2ed1d6930d07",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "88d1eea2-4903-4f4a-8f9e-23283f3cf68e",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "bc02c40c-2b99-4adf-9ed6-66f4f5698ba5",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "91ce533b-953b-4158-8825-80346580ced6",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "4ad4c36f-b074-4ae9-9ba7-d077faaddd52",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "6d416501-86c9-4898-a959-ab7211728b6e",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "e1e47ae6-0971-4348-bdcd-d5f516c6cf92",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "a0da57ad-ddae-4a8a-afee-855ae3d5bbef",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "e9723604-92d5-4688-95af-56e07678600e",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "88238576-f922-4d21-9dd1-723e51d344c9",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "3953620c-ad13-448d-a31b-a473c982ffb2",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "cee7e9b1-4653-4765-94e3-becfac2a485e",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "029a4d68-e428-4c1e-945a-615141ee9ded",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "59737332-a5e6-4af0-8d5e-9ab107e73647",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "f0421b15-1071-4cb8-b11d-818b5f7b2b13",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "14091df8-7913-49d3-b65b-cdd4d99ed3eb",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "b39fd095-f430-4cb2-be5e-380ee3a58f07",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "75e40e87-866c-4c20-a7d5-f738bceef998",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "0aeb8a3f-de7d-4e8e-bcfe-4e783805e1f8",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "522f2b8c-1df6-449d-b6cc-16837bae60d7",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "6285612e-9979-4c9b-bdcb-6d91e3c5a369",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "632b2fe2-115f-4f75-8143-380950e1099f",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "9a65551a-5b9a-4dd8-8057-9ec437cbe0ec",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "16b341d5-eb10-4d7f-a8a4-410d76df1502",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "10e7e4fe-f2ff-4ff2-8cda-2d5f482622a9",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "58b267b9-a2bf-42f7-8273-ba088f2adad6",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b22cca37-4af3-45f4-b39f-1e3031a1c688",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "79a99569-9402-4f24-9aab-abfe43ec20b6",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "6688a8f7-6e65-470b-bc07-16d133d4b284",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "1a61eab5-f20e-4d35-94a9-871f7c3e016b",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "1ad06343-a720-4213-9794-26e20e968809",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "8d0321d2-d450-4831-899c-81f46482011f",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "0e85e91f-cea6-49b4-989a-12a9a3fa2f2a",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "7ae989ea-e8ad-49d4-ba63-3717ddaded5a",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "95c063de-7150-4402-927c-024e05026b83",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b30b36e2-8c39-4012-b01c-89eecaa5f1df",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "0f6088b4-e299-4636-95da-b4624a41b1df",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "da8c6194-2ca4-437f-9a3b-772650d10e30",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "f03da963-3d20-4219-b031-cdee4806e476",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "0fc95c5c-6f76-4909-bbb1-58c407fc6497",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "cf04c0b6-0821-47e8-b73a-29be24e55aef",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "8fb1407c-1ee4-4ad3-be55-533bf84be036",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "de6e9c67-0746-4be6-8268-1c610f305b28",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "f5b75d21-9d4b-4fdf-8bca-d2162ea904c4",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "617a8438-86af-4953-9a95-0e98dbc1a3fe",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "b1622317-2992-4efa-aa90-d96043b1de7e",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "a44493fa-4c84-4c15-bec0-07feb2c63005",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "e8526c95-28a7-47a7-8db0-783846064596",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "d5099474-5bd4-43fd-b7b5-dbc8a3cd841a",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "6e0bb64c-b110-4578-b963-661b477e3cd2",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "227e8d14-090d-4329-9aea-b7fd3ca56b58",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "0b05d0f1-4066-4513-9638-a13ab9557464",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "9b15a8bb-0fe0-4651-aafb-7811ba440b3b",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "20a187a0-252b-429d-8140-527f362f394c",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "f31bde82-92f9-4e90-8eed-832662de35f0",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "0b8e8485-a965-4857-88f9-1b04989c710a",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "14aa5ab7-1b76-4709-bad7-11de84db2ade",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "8d06c900-9d88-4da6-9e04-ff6b350623f2",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "31fe6fd6-e056-4ae0-bc74-45a9037918e2",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b7fe408c-244a-4be8-a86c-44c06644ea17",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "4e41a926-d713-4eb5-9e46-385fdbbbe04f",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "e6274905-31b9-42e1-8b37-2573e41adb4a",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "badeb6e3-d2b1-4c97-8628-b0c30d5bcb7e",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "c24dbb4d-0874-4489-aeff-a9e136f95fa1",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "d629577b-a20d-46f6-9299-4745e318f88e",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "5dd58acc-2eb5-4f36-8e31-105aabf8b7ef",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "8cfe20e1-da8a-4e79-8ea4-0565118bdb62",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "a17b18e1-74d1-44c8-b017-876f979dcc5e",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "434dbe64-ee1e-4196-bf99-8a77bc03ec13",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "43112a04-f982-4cd6-929a-e712b08ef9ae",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "d918c2d4-fabf-473c-992c-563402298636",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "32d712d3-5faa-43a1-8b0e-af4c7ac49c15",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "095e774a-a48d-4a81-bf80-05c0991c2c46",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "4cd70fea-1eee-4544-adc7-c9f93e9aaf8c",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "abcf24a1-9d66-45b7-ab85-3284ff224f17",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "728710a2-8b77-4ad9-9d8f-6f4eed699a25",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b114538c-face-4e57-b528-8cceb382e872",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b6080ef9-f608-48ae-96bc-d64400b09382",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "4700d04a-384d-4f92-9649-e7590e298bd5",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "96b52c30-b9cd-4cbd-ba58-976796753a6a",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "a930a2f4-d406-4f89-a6b7-30c329caef5d",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "53b27a73-a30e-49aa-a296-1c0a4529827a",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "c19592fb-1afe-4865-af46-7ca9a0c8358f",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "107376d9-9ddd-4cd0-aadd-54997a60f1de",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "95128955-997d-4937-88de-aa4c2b76d0da",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "a39372bd-32b9-4c7a-894f-e3a5bd4e2ae3",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "36988d9f-0ff5-4e80-8c2f-9017bb966e28",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "6fa3315e-1052-4f9b-b502-9ce90bc6912b",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "518753dd-d104-48ce-aef1-842551329e8a",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "4e7ac57a-a570-413a-89d8-cc8117714a07",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "a2e5b71b-823d-4ca1-a280-49f81e97655c",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "c959fd94-db9c-4e31-817d-e6d0f9e1a739",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "c795d210-d2a7-46b0-8734-e72183fd8c5b",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "e557f5a9-c09a-49cc-a00a-9a0d9d79573b",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "14a12068-acb1-4aee-bef1-5225fb920d28",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "11818760-6889-4082-bd0d-52c738259937",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "f40ca7b8-12f8-432b-ad67-87d6bde1e790",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "37debe85-8829-400f-ad04-cf5f1f67f4f8",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "819579c1-59c9-4218-95e4-37b4ec8b1572",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "b2cf610a-05f6-4bc5-8eb5-bfb6d6cfb408",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "fddcbe45-95ab-429f-bc0e-cf01bd569803",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "937c0885-1117-43e7-8023-2e5663890379",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "05694729-6707-47fd-925e-195c2788904f",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "48da535a-54cf-49c8-b0a6-b5772fe08db3",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "ec4c6ff2-4c8f-4325-b772-648a3e0ad115",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "67caf286-a5c2-4eeb-9259-b846f6195635",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "a5ae5288-d0be-45a2-b0ce-a3151c96a4c7",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "232970a3-d176-4d28-96a5-62c95719aab4",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "6928ee83-06fd-44e5-a3cf-3667f8ebfe72",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "33e1846a-7482-4c19-81c2-a1d2db5bf1ac",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "565b314d-672c-4c84-aa07-527dd8038df9",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "4ad8c125-0465-409a-8cac-f10da02dcb92",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "2bbb8f95-a1e0-4211-88ec-cce3eca7ebfa",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "73ca6f7b-32f8-4177-8484-58a6f8fd9147",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "26818247-ffdf-41e2-8405-52f9bc1594e7",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "92f8d6c4-8998-4cf4-b099-99e6ea602de0",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "bb8f34db-dfb3-46e0-ba9a-7b819f9b6373",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "33a06d36-0c76-4aaf-b3f0-b9332ec377eb",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "076b1c90-bab1-42d4-9f12-2ea477ae6ed9",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "19103a54-6df1-4b99-b340-27f3c6968afe",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "bb2f2420-821e-4082-903f-8297acffbcda",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "0c84a70b-1579-4a0e-93a5-08455aa29fa1",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "f43ad369-73d3-4c01-a1ee-8821986f9b8b",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "4384a67e-6881-471e-aac3-a7a03f1b0c6a",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "80c2fec0-e631-446e-bdac-e436cf52d69f",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "a495e817-55d9-4fd1-9340-4ee7daf11b71",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "5246aa4d-7758-4d83-aed6-03029b8cfec8",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "0907d423-40c9-49f0-a9ed-f948f5ce765b",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "57be8d9a-6fcc-4dbe-a43f-7b3c1996a0c8",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "477114b2-9243-4f10-8e28-4b5a61644090",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "53c9458f-fd52-43c0-89ec-06bc06643ee2",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "cd38b54f-8f60-4eaa-aa77-e67242ff08d0",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "78f96276-e1ba-4d24-ae04-1b8001d75c42",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "3802a041-2c99-4515-bcb3-fe9e41914e91",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "f30215b7-6bb2-4f38-977d-6c9a782547dc",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "646d6034-44b2-4c5f-bf99-eb07b5b3e4d6",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "3a25ed72-be3c-4759-8259-a173daab1b31",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "5e7254c7-de4d-4b90-b125-231f7eba5a59",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b3da3e81-8d82-441b-a117-61a67345c930",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "5428d33f-0139-489b-a2ac-4a88180410bb",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "8a52a148-1d36-4a1a-b4e5-bce781770cc9",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "be7340d3-ef7a-43f6-b6ab-4bcceea8f83d",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "5246b5e9-742f-4b58-b121-fdf8b055d0d5",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "2de429c4-fff6-4e44-9e24-832480293d85",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "6cbc5637-30bb-4134-bb9e-96140c54b9d3",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "595f48ad-b1bd-42e5-b20f-a3898805590c",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "6abe0178-a10e-4d80-936c-d45fd7fcf559",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "b964706e-3812-4edb-80b1-0d121adf972d",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "31647cf3-692f-41a1-8af0-d044ed58139d",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "d0d073c4-c2d8-4468-a14c-a9f1874294ea",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "122b18da-1af0-4142-b5b0-d7cdfbb2aa8f",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "7d10958b-9341-405e-8dfc-9e2abbdc921d",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "ebe0240b-6cca-492a-adf8-d9b7c2542a63",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "89b79251-07b9-4ef7-b40f-d6fdcca29ae1",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "7f087f61-1ae3-4be7-91e8-d08e71c35903",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "19173a24-84dc-4477-afa7-df201e59f8fc",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "f2f9a3e2-7d4c-4f49-8229-69ba1a97616f",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "bafc7c95-cbc0-47ca-9cfd-cafe660f6ad0",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "bda82a82-420a-4cdf-8020-7ff07e95825c",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "3464963d-acba-4464-81aa-fe927a786a92",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "386db170-9da3-4ce1-b667-31ff7230f55b",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "0726ac71-0bc4-4651-b8e3-b1ade12824aa",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "e7d95c8b-2861-49b0-a6b8-bb8353a6bfb8",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "fb340ab2-e311-41b3-a4af-669974b7598b",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "7ac1b39b-f4fa-4943-95c3-bfd734c4a2e7",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "168fb620-f3e1-402b-8dde-277b7a15aeaf",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "6c15bfa7-574b-43f7-b7f2-874392d888a7",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "b41bdf85-53e9-4a3c-bc5c-a46dd0d9f4ad",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "6df9e2b5-84e8-4363-9db8-8a280aebf48e",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "304d994c-be0d-477e-9534-ef7fe12323c7",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "81d94942-6adf-409e-bf02-8cfc7919ec5a",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "663f071b-d3c8-4849-9234-5bb1eb3d8563",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "2e0fa2f5-de82-4645-b8be-6312de036ce2",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "43ac11c8-39b8-493d-944f-b232ba4f8429",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "a9dce435-4b6a-4bd4-af72-95f8d626e6fa",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "efe91862-676e-4ed8-8266-491d9c65f222",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "e3f6d884-32e1-47b3-9305-5db85c8dccc4",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "0000429f-ecd5-4a3c-890e-43782725c2ea",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "6699854e-8643-4611-92cf-4e1648a40da5",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "684f8c9c-e588-4432-89e9-7d73c17760f5",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "35d6fb7a-3689-4d0f-8348-d7c9731c9644",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "a6f55f48-6480-4591-9f43-de27cab0af3b",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "d179f85a-5e56-42f7-b670-2cb389df8532",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "1bccc324-b0b6-4324-88ca-f75713e02ebe",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "b2d0cba8-ee4d-42e0-b03b-9de325b0ee6d",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "93f6d238-d5be-466b-a989-cc7c8fa17dbe",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "98f24c77-8b3b-431a-96d5-3325234d1691",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "5c0e7e8f-129f-44ed-829f-b10cb4ea30f1",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "31672944-c653-446b-b671-14ab36bcced0",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "46409eab-7226-43d6-938c-925fa096f77d",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "01379486-8986-4962-bbbc-d83f7b462811",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "91d28496-d376-4144-85f7-c323e4a1fac2",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "203cc633-7b3d-40a8-80bb-15259a6de8fd",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "1983f132-66f1-4a07-9c25-7a800a9219de",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "e2b7e5fe-fbd2-44f6-a0b5-ccf8c3f49594",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "a24b77ef-7b89-4798-937d-93412e6e7886",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "2537f139-fdda-426b-b919-6c4da74bbe19",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "8272373b-3ef8-47fb-b8df-9761d2e35c11",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "9da1d73e-4322-4dbf-9781-0df0c412aad2",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b9e83270-80e3-46d6-9389-0dcdac430647",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "0140a8ea-b206-45ca-99e3-f5d2c168d300",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "88d75989-18f4-43bf-b0f4-c96ca2e8b8e3",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "e1bed14e-e89b-4578-8d8a-dad1845ac155",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "7e73a123-dd2b-4bcc-9330-c3188190ea6b",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "136fc10c-efa3-4dea-b2ae-ed8f504b2462",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "cfaff7ff-02cc-400f-b5d3-fa7841a4f1a4",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "82eb2932-619a-41ce-a99b-1c960bf19db7",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "2957551b-82a2-4d22-a0de-3546f0a20f15",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "9bffe755-c33e-4b96-9f4f-fd842914633b",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "f087e2a9-a7e2-4819-8b11-e21513f7c379",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "39efc2b5-73c8-4af1-8bc7-30f632f9cd3b",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "2aafa35e-e4e1-48e4-8cb1-e18cfc1f45a7",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "3d7e87d3-17e2-41c5-ae31-308c67ac6d09",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "b7bd4d01-b10e-4f3d-a29b-c02ab53b1e5f",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "803c4ce2-19ca-4ba4-aed8-44989f949ca2",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "ec1ac661-28cf-4053-b96d-32b7b9b4db54",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "a34405ff-d09e-4740-acc3-7346f1f2af37",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "a80c6ff8-c286-4e8e-9bc0-5c596b9c1792",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "5966cc76-33c9-4e2a-b97f-174404cb2e71",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "7c9dd486-0e88-4ceb-a3cd-9094a4c7443f",
     "device": "agg-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 4
   },
   {
     "alarm_id": "d8029ecb-973d-4a3c-b1c3-c8ac8877afef",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "ee6b6926-4e13-4c5d-b266-c8714bc267a7",
     "device": "agg-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "3feb9ce4-ce5f-4e64-bfa1-862e7d679691",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "3f5696b2-6d0b-4063-aee8-42ecda344f59",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "e082a18e-e02e-4dc4-ad4b-684fe5ab2a27",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "ed54c25b-2a98-498b-863e-45e2320e2b27",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "1d2c6124-30e9-4163-bd63-86b7a0cc541d",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "2e84df7b-9c39-4b91-a0e0-78b4be3187cc",
     "device": "acc-3",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "94e7890d-9411-4c50-89bb-e0fc9a52e1fc",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "cfaed45e-2fa6-4a0a-9e21-45577941497f",
     "device": "acc-4",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 0
   },
   {
     "alarm_id": "9e1a86e9-8615-47f6-8028-52678eaee562",
     "device": "acc-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   },
   {
     "alarm_id": "29142b03-9b9f-4a73-8d64-73488d95ca3d",
     "device": "core-1",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 6
   },
   {
     "alarm_id": "bb33d6d4-c4ff-412c-b00b-400a85349a30",
     "device": "acc-2",
     "decision": "SUPPRESS_FLAPPING",
-    "root": null,
     "impact": 2
   }
 ]
