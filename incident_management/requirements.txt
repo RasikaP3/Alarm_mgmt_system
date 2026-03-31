@@ -1,0 +1,13 @@
+# NOC Multi-Agent System — Python dependencies
+kafka-python==2.0.2
+pymongo==4.6.1
+sentence-transformers==2.7.0
+scikit-learn==1.4.2
+faiss-cpu==1.8.0
+numpy==1.26.4
+requests==2.31.0
+twilio==8.13.0
+pandas
+python-dotenv
+fastapi
+uvicorn[standard]
